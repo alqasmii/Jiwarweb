@@ -1,0 +1,40 @@
+body {
+    color: #000;
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#ffffff, #9349d1);
+}
+
+h1, h2 {
+    color: #000;
+    text-align: center;
+}
+
+p {
+    color: #666;
+    text-align: center;
+}
+
+#lp-pom-root {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#lp-pom-image-9 img {
+    display: block;
+    margin: 0 auto;
+}
+
+#lp-pom-text-30 h1 {
+    font-size: 48px;
+}
+
+#lp-pom-text-50, #lp-pom-text-51, #lp-pom-text-53 {
+    margin: 20px 0;
+}
+
+#lp-pom-text-39, #lp-pom-text-40 {
+    text-align: center;
+    color: #bbb;
+}
