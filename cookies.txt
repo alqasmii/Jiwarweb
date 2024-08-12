@@ -1,0 +1,8 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+jiwar.ubpages.com	TRUE	/jiwar-1/	FALSE	1999999999	ubpv	a%2Cd18f7273-dee3-41f9-8c33-5a3158521cba
+jiwar.ubpages.com	TRUE	/	FALSE	1999999999	ubvs	d3026b0d-7688-4ec8-af16-a38d46f74ac1
+ubpages.com	TRUE	/	FALSE	1999999999	ubvt	v2%7Cd3026b0d-7688-4ec8-af16-a38d46f74ac1%7Cd18f7273-dee3-41f9-8c33-5a3158521cba%3Aa%3Asingle%3Asingle
+jiwar.ubpages.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.ubpages.com	TRUE	/	FALSE	1999999999	__cf_bm	8D973DWV4MeoFQ3gKdG3DjoGY7HzLYxJXfra0pbsP2U-1723425710-1.0.1.1-qbm7r0E0CCWkckQkfv.ksgryYsZW9j3GxXcUw3yY4kFIGdWEXFr1Ww4DgzOM9rj70aSgWTEue61rL8C6Lr1jHA
+
