@@ -2241,6 +2241,8 @@ figcaption {
 }
 
 .nav-link.dropdown-toggle.light {
+  border-color: #747474;
+  margin-left: 15px;
   padding-right: 30px;
 }
 
