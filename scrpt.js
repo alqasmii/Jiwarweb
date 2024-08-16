@@ -1,12 +1,3 @@
-
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
-
 (() => {
   var __create = Object.create;
   var __defProp = Object.defineProperty;
@@ -1506,16 +1497,7 @@
           var fullScreen = doc.fullScreen || doc.mozFullScreen || doc.webkitIsFullScreen || doc.msFullscreenElement || Boolean(doc.webkitFullscreenElement);
           $(brandElement).attr("style", fullScreen ? "display: none !important;" : "");
         }
-        function createBadge() {
-          var $brand = $('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs");
-          var $logoArt = $("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon-d2.89e12c322e.svg").attr("alt", "").css({
-            marginRight: "4px",
-            width: "26px"
-          });
-          var $logoText = $("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg").attr("alt", "Made in Webflow");
-          $brand.append($logoArt, $logoText);
-          return $brand[0];
-        }
+      
         function ensureBrand() {
           var found = $body.children(namespace);
           var match = found.length && found.get(0) === brandElement;
@@ -14432,6 +14414,7 @@ Webflow.require('ix').init([
   {"slug":"hide-lightbox","name":"Hide Lightbox","value":{"style":{"display":"none","opacity":0},"triggers":[]}},
   {"slug":"show-lightbox","name":"Show Lightbox","value":{"style":{},"triggers":[{"type":"click","selector":".portfolio-lightbox-overlay","siblings":true,"stepsA":[{"display":"flex","opacity":1,"transition":"opacity 500ms ease 0ms"}],"stepsB":[]}]}}
 ]);
+
 Webflow.require('ix2').init(
 {"events":{"e":{"id":"e","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"POP_EFFECT","instant":false,"config":{"actionListId":"pop","autoStopEventId":"e-2"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"0a79a7be-19a3-9cde-33ac-57abcab9dd10","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"0a79a7be-19a3-9cde-33ac-57abcab9dd10","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":0,"direction":null,"effectIn":null},"createdOn":1723654455657},"e-5":{"id":"e-5","name":"","animationType":"preset","eventTypeId":"MOUSE_OVER","action":{"id":"","actionTypeId":"POP_EFFECT","instant":false,"config":{"actionListId":"pop","autoStopEventId":"e-6"}},"mediaQueries":["main","medium","small","tiny"],"target":{"id":"bceb1874-f405-3e14-a892-85c9800e095f","appliesTo":"ELEMENT","styleBlockIds":[]},"targets":[{"id":"bceb1874-f405-3e14-a892-85c9800e095f","appliesTo":"ELEMENT","styleBlockIds":[]}],"config":{"loop":false,"playInReverse":false,"scrollOffsetValue":null,"scrollOffsetUnit":null,"delay":0,"direction":null,"effectIn":null},"createdOn":1723654681367}},"actionLists":{"pop":{"id":"pop","actionItemGroups":[{"actionItems":[{"actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outQuart","duration":250,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":0.7500000000000001,"yValue":0.7500000000000001}}]},{"actionItems":[{"actionTypeId":"TRANSFORM_SCALE","config":{"delay":0,"easing":"outElastic","duration":1000,"target":{"id":"N/A","appliesTo":"TRIGGER_ELEMENT","useEventTarget":true},"xValue":1,"yValue":1}}]}]}},"site":{"mediaQueries":[{"key":"main","min":992,"max":10000},{"key":"medium","min":768,"max":991},{"key":"small","min":480,"max":767},{"key":"tiny","min":0,"max":479}]}}
 );
