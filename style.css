@@ -188,19 +188,19 @@ td, th {
 }
 
 .w-icon-slider-right:before {
-  content: "#";
+  content: "=";
 }
 
 .w-icon-slider-left:before {
-  content: "#";
+  content: "=";
 }
 
 .w-icon-nav-menu:before {
-  content: "#";
+  content: "=";
 }
 
 .w-icon-arrow-down:before, .w-icon-dropdown-toggle:before {
-  content: "#";
+  content: "=";
 }
 
 .w-icon-file-upload-remove:before {
@@ -7590,7 +7590,7 @@ html.w-mod-js [data-ix="hide-lightbox"] {
     border-radius: 4px;
     width: 50px;
     height: 50px;
-    margin-right: 20px;
+    margin-right: 100px;
     padding-top: 14px;
     padding-left: 0;
     padding-right: 0;
